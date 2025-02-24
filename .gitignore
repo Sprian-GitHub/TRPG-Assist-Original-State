@@ -1,0 +1,58 @@
+# ---------------------------
+#   1. Python / Django
+# ---------------------------
+# 生成的字节码与缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境文件夹
+env/
+venv/
+.venv/
+# 如果你使用 conda 也可将其添加进去
+
+# Django / Python 打包或发布时产生的文件夹
+build/
+dist/
+*.egg-info/
+
+# 本地数据库文件（如SQLite）
+*.sqlite3
+
+# 如果你使用 .env 存放敏感信息，务必忽略
+.env
+
+# ---------------------------
+#   2. Node.js / React
+# ---------------------------
+# node_modules 文件夹体积巨大，不要提交到Git
+node_modules/
+
+# React 或前端打包后的文件夹（create-react-app 默认叫 build）
+build/
+# 如果使用 Next.js 或者其他脚手架，请添加对应输出文件夹，如 .next
+
+# 前端测试覆盖率报告
+coverage/
+
+# ---------------------------
+#   3. Docker
+# ---------------------------
+# Docker 生成的一些临时文件或日志
+*.log
+docker-compose.override.yml
+
+# 你自己可根据需要忽略更多容器配置或临时文件
+
+# ---------------------------
+#   4. 编辑器 / IDE / 系统
+# ---------------------------
+# VSCode 配置
+.vscode/
+# JetBrains / PyCharm / WebStorm 配置
+.idea/
+# Mac 系统文件
+.DS_Store
+# Windows 缩略图数据库
+Thumbs.db
